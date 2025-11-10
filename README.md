@@ -11,7 +11,7 @@ A compact portfolio of 5 SQL queries demonstrating intermediate-to-advanced skil
    - VS Code with a SQL extension (e.g., *SQLTools* or *PostgreSQL*), or `psql` CLI
 
 2. **Clone & Open**
-   - Put `Postgres.session.sql` in your repo root (or keep the provided structure below).
+   - Put `postgres_data_analysis_portfolio.sql` in your repo root (or keep the provided structure below).
    - Open the folder in VS Code.
 
 3. **Connect to your database**
@@ -19,7 +19,7 @@ A compact portfolio of 5 SQL queries demonstrating intermediate-to-advanced skil
    - Ensure the column names match those referenced by the queries.
 
 4. **Run the Queries**
-   - Open `Postgres.session.sql`
+   - Open `postgres_data_analysis_portfolio.sql`
    - Each query is separated by a clear header (`____ 1.`, `____ 2.`, etc.).
    - Run the section you need (highlight + “Run Selected Query” in VS Code, or paste into `psql`).
 
@@ -30,7 +30,7 @@ A compact portfolio of 5 SQL queries demonstrating intermediate-to-advanced skil
 ```
 data-jobs-sql-portfolio/
 ├─ README.md
-└─ Postgres.session.sql
+└─ postgres_data_analysis_portfolio.sql
 ```
 
 > You can add a `schema/` folder with create-table scripts, and a `samples/` folder with CSVs if you plan to share the dataset.
@@ -102,7 +102,7 @@ data-jobs-sql-portfolio/
 ## 🛠️ How to Run (examples)
 
 **In VS Code**  
-- Open `Postgres.session.sql`, place cursor anywhere in a query block, run the selected query via your SQL extension.
+- Open `postgres_data_analysis_portfolio.sql`, place cursor anywhere in a query block, run the selected query via your SQL extension.
 
 **With `psql` CLI**  
 ```bash
@@ -128,7 +128,7 @@ psql -h <host> -U <user> -d <db>
 
 ## 📌 Attribution
 
-All queries are bundled in **`Postgres.session.sql`**. See that file for exact SQL and in-line comments.
+All queries are bundled in **`postgres_data_analysis_portfolio.sql`**. See that file for exact SQL and in-line comments.
 
 ---
 
