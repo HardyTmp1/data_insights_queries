@@ -107,7 +107,7 @@ data-jobs-sql-portfolio/
 **With `psql` CLI**  
 ```bash
 # Option A: run the whole file (will print all result sets sequentially)
-psql -h <host> -U <user> -d <db> -f Postgres.session.sql
+psql -h <host> -U <user> -d <db> -f postgres_data_analysis_portfolio.sql
 
 # Option B: run one query – copy/paste the block between the headers into psql
 psql -h <host> -U <user> -d <db>
